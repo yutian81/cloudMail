@@ -19,8 +19,8 @@ jobs:
       D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID }}
       KV_NAMESPACE_ID: ${{ secrets.KV_NAMESPACE_ID }}
       R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
-      DOMAIN: ${{ secrets.DOMAIN }}
-      ADMIN: ${{ secrets.ADMIN }}
+      DOMAIN: ${{ vars.DOMAIN }}
+      ADMIN: ${{ vars.ADMIN }}
       JWT_SECRET: ${{ secrets.JWT_SECRET }}
       LINUXDO_CLIENT_ID: ${{ secrets.LINUXDO_CLIENT_ID }}
       LINUXDO_CLIENT_SECRET: ${{ secrets.LINUXDO_CLIENT_SECRET }}
