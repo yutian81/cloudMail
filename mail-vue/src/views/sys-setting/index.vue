@@ -94,6 +94,13 @@
                                    :step="0.01" :max="1" :min="0"/>
                 </div>
               </div>
+              <div class="setting-item">
+                <div class="title-item"><span>{{ $t('backgroundDarken') }}</span></div>
+                <div>
+                  <el-input-number size="small" v-model="loginDarkenFactor" @change="darkenChange" :precision="2"
+                                   :step="0.01" :max="1" :min="0"/>
+                </div>
+              </div>
               <div class="setting-item personalized">
                 <div><span>{{ $t('loginBackground') }}</span></div>
                 <div>
